@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.btn-info {
+    color: #fff;
+    margin-right: 3px;
+}
+
+footer {
+    background-color: #212529 !important;
+}
