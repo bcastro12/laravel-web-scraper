@@ -17,7 +17,7 @@
 				</form>
 				<br />
 				<p>Caso nenhum termo seja especificado, o sistema irá pegar todos os resultados da primeira página do site <a href="https://www.questmultimarcas.com.br/estoque" target="_blank">https://www.questmultimarcas.com.br/estoque</a> e gravar no banco de dados.</p>
-				<p>Caso um termo de busca seja informado, o sistema irá acessar a página e gravar todos os resultados da primeira página no banco de dados.</p>
+				<p>Caso um termo de busca seja informado, o sistema irá acessar a página de busca com o termo e irá gravar todos os resultados da primeira página no banco de dados.</p>
 			</div>
 		</div>
 	</div>
