@@ -26,16 +26,22 @@ Foi adicionada a linha `protected $guarded = [];` na model Carro para permitir q
 
 ## Para usar:
 
-`git clone`
+Digite os comandos a seguir no terminal:
+
+`git clone https://github.com/bcastro12/laravel-web-scraper.git`
 
 `composer install`
 
-Renomeie o arquivo .env.example para .env e coloque suas credenciais locais
+Crie um banco de dados MySQL chamado `uplexis`
 
-Crie um banco de dados chamado uplexis
+Edite o arquivo `.env` e coloque suas credenciais locais do banco de dados.
+
+Execute os comandos:
 
 `php artisan key:generate`
 
 `php artisan migrate`
 
 E por fim, rode o servidor: `php artisan serve`
+
+Então é só acessar a página em seu navegador e criar um novo usuário.
